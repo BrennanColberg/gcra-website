@@ -1,0 +1,13 @@
+title: Greater Corvallis Restaurant Association
+email: steven@corvallisrestaurantassociation.org
+
+# Build settings
+markdown: kramdown
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://corvallisrestaurants.org" # the base hostname & protocol for your site
+
+# Custom collections to include markdown files at root
+collections:
+  root_files:
+    output: true
+    permalink: /:path
